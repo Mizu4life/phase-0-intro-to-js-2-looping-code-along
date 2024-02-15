@@ -2,7 +2,7 @@
 function writeCards(names , type){
     let arr=[];
     for(let i=0; i< names.length;i++){
-        arr.push("Thank you, " + names[i] + ", for the wonderful " + type + " gift!");
+        arr.push(`Thank you, ${names[i]}, for the wonderful ${type} gift!`);
     }
     return arr;
 };
@@ -13,4 +13,4 @@ function countDown(countdown){
         console.log(countdown--);
       }
 }
-countDown(10);
+// countDown(10);
